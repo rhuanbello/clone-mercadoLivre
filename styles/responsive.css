@@ -1,0 +1,145 @@
+@media (max-width: 1280px) {
+    
+
+    
+}
+
+
+@media (max-width: 768px) {
+    main section section.list ul.products {
+        flex-wrap: wrap;
+        
+    }
+    main section section.list ul.products li {
+        margin-top: 1.6rem;
+    
+    }
+
+    header nav.top {
+        padding: .9rem 5rem 0 8rem; 
+    
+    }
+
+    header nav.top a.disney {
+        display: none;
+    
+    }
+
+    header nav.top .search input {
+        max-width: 30rem;
+        
+    }
+
+    header nav.top .search {
+        padding: .7rem;
+        margin-right: 2rem;
+    }
+
+    header nav.top .search input::placeholder {
+        font-size: 1.2rem;
+    
+    }
+
+    header nav.bottom {
+        padding: 1rem 0 .8rem 8rem;
+        flex-wrap: wrap;
+    
+    }
+
+    header nav.bottom .container {
+        flex-wrap: wrap;
+    
+    }
+
+    header nav.bottom .container ul.items {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        margin-right: 0rem;
+    
+    }
+
+    main section section.list {
+        margin-top: 3rem;
+    }
+    
+
+    header nav.bottom .container .local {
+        display: flex;
+        margin-right: 0rem
+    
+    }
+
+    header nav.bottom ul.login {
+        margin-top: 2rem;
+    }
+
+    main section header.payment .container {
+        /* flex-wrap: wrap; */
+        padding: .5rem 0 .5rem .5rem;
+        margin: 0 auto;
+        max-width: 75%;
+
+    }
+
+    main section header.payment .container p {
+        margin-right: 0rem;
+    
+    }
+
+}
+
+@media (max-width: 411px) {
+
+    header.menu {
+        padding-top: 1rem;
+    }
+
+    header nav.bottom {
+        padding: 1rem 0 .8rem 6rem;
+        flex-wrap: wrap;
+        text-align: center;
+    
+    }
+
+    header nav.top {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header nav.top a{
+        margin-bottom: 2rem;
+        
+    }
+
+    header nav.bottom .container .local {
+        display: none;
+        
+    }
+
+    main section header.payment {
+        display: none;
+    
+    }
+
+    /* main section header.payment .container {
+        flex-wrap: wrap;
+        box-shadow: .1rem .1rem 0 rgb(0 0 0 / 10%);
+        border-radius: .4rem;
+        
+    } */
+    
+    main section header.payment .container span {
+        font-size: .8rem;
+        margin-top: .4rem;
+    
+    }
+    
+
+    header nav.bottom .container ul.items li {
+        margin-bottom: 1rem;
+        
+    }
+    
+}
